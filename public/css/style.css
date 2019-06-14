@@ -1,0 +1,69 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #313A44;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #9DAABC;
+    font-family: 'Merriweather', serif;
+}
+
+.art_landing_heading {
+    position: relative;
+}
+
+.art_landing_text {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: 55rem;
+}
+
+.art_landing_text h1 {
+    color: #fff;
+}
+
+
+.art_number_heading {
+    border: solid 1px #9DAABC;
+    padding: 6px;
+}
+.art_main_heading {
+    margin-left: 50px;
+}
+
+.art_heading {
+    padding-top: 50px;
+}
+.art_subtitle,
+.art_red_text {
+    color: #EC483E;
+    font-family: 'B612 Mono', monospace;
+}
+
+
+.art_landing {
+    background-image: url("../img/casey-horner-1400759-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.art_main {
+    background-color: #1A2128;
+}
+
+.art_abstract {
+}
+
+.art_section_data {
+    margin-bottom: 25px;
+}

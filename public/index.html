@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Artist Diversity Data</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono|Lato|Merriweather&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<main class="art_main">
+    <div class="art_landing">
+        <div class="container">
+            <div class="row">
+                <div class="eight columns">
+                    <div class="art_landing_heading">
+                        <div class="art_landing_text">
+                            <h1>Artist Demographic Diversity Data</h1>
+                            <p>The U.S. art museum sector grapples with diversity. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="art_heading">
+            <div class="row">
+                <div class="four columns">
+                    <p class="art_number_heading">01. | Case Study</p>
+                </div>
+                <div class="four columns">
+                    <p class="art_number_heading">Moar Text</p>
+                </div>
+                <div class="four columns">
+                    <p class="art_number_heading">Moar Text</p>
+                </div>
+            </div>
+            <h3>Diversity of Artists in major U.S. museums</h3>
+        </div>
+        <h4 class="art_subtitle">Abstract</h4>
+    </div>
+    <div class="row">
+        <div class="nine columns">
+            <h5 class="art_main_heading">
+                Historically, the artists represented in U.S. art museums have been predominantly male and caucasian. In
+                partnership with the Andrew W. Mellon Foundation, the Association of Art Museum Directors (AAMD) found
+                that <span class="art_red_text">72%</span>
+                of staff at its member institutions identify as white [1]. This same study found that <span
+                    class="art_red_text">60%</span> of museum
+                staff are
+                women, though only <span class="art_red_text">43%</span> of directorships are held by women, indicating
+                a gender gap at the highest levels
+                of
+                leadership [2].
+            </h5>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="art_abstract">
+            <div class="row">
+                <div class="six columns">
+                    <p>
+                        The U.S. art museum sector is grappling with diversity. While previous work has investigated the
+                        demographic diversity of museum staffs and visitors, the diversity of artists in their
+                        collections has remained unreported. We conduct the first large-scale study of artist diversity
+                        in museums. By
+                        scraping the public online catalogs of 18 major U.S. museums, deploying a sample of 10,000
+                        artist records
+                        comprising over 9,000 unique artists to crowdsourcing, and analyzing 45,000 responses, we infer
+                        artist genders, ethnicities, geographic origins, and birth decades. Our results are threefold.
+                        First, we
+                        provide estimates of gender and ethnic diversity at each museum, and overall, we find that 85%
+                        of artists are white and 87% are men.
+                    </p>
+
+                </div>
+                <div class="six columns">
+                    <p>
+                        Second, we identify museums that are outliers, having significantly higher or lower
+                        representation of certain demographic groups than the rest of the pool. Third,
+                        we find that the relationship between museum collection mission and artist diversity is weak,
+                        suggesting
+                        that a museum wishing to increase diversity might do so without changing its emphases on
+                        specific time
+                        periods and regions. Our methodology can be used to broadly and efficiently assess diversity in
+                        other
+                        fields.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- First Chart -->
+
+        <section class="art_section_data">
+            <div class="row">
+                <div class="four columns">
+                    <p class="art_number_heading">02. | The Data</p>
+                </div>
+                <div class="four columns">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="six columns">
+                    <canvas id="doughnut-chart" width="800px" height="450px"></canvas>
+                </div>
+
+                <div class="six columns">
+                    <canvas id="bar-chart" width="800" height="450"></canvas>
+                </div>
+
+                <div class="six columns">
+                    <canvas id="radar-chart" width="800" height="600"></canvas>
+                </div>
+
+                <div class="six columns">
+                    <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<script src="./main.js"></script>
+</body>
+</html>
